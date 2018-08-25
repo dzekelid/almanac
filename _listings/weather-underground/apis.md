@@ -12,9 +12,10 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/almanac/master/_listings/weather-underground/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Weather Underground
-  x-api-slug: weather-underground
-  description: get-forecast-and-weather-data-with-complete-geolocation-services-global-coverage-and-more-
+- name: Weather Underground - Get Key Almanac Q Ca San Francisco
+  x-api-slug: keyalmanacqstatesan-francisco-json-get
+  description: This example will return Today's Average Highs/Lows and Record Highs/Lows
+    for San Francisco, California.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
   baseURL: https://api.wunderground.com//api/
@@ -25,17 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/almanac/master/_listings/weather-underground/keyalmanacqstatesan-francisco-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/almanac/master/_listings/weather-underground/keyalmanacqstatesan-francisco-json-get-openapi.md
-- name: Weather Underground
-  x-api-slug: weather-underground
-  description: Weather Underground provides local & long range weather forecasts,
-    weather reports, maps & tropical weather conditions for locations worldwide.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
-  humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api/
-  tags: Almanac
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/almanac/master/_listings/weather-underground/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://watchful.api.gallery.streamdata.io
